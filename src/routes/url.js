@@ -1,5 +1,5 @@
-export const BASE_URL = "http://127.0.0.1:8000"
-// export const BASE_URL = "https://tourmaline-ordinary-handball.glitch.me"
+// export const BASE_URL = "http://127.0.0.1:8000"
+export const BASE_URL = "https://mountainous-attractive-ring.glitch.me/"
 export const url = {
     LOGIN_USER: BASE_URL + "/user/login",
     SIGNUP_USER: BASE_URL + "/user/signup",
