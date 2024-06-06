@@ -12,7 +12,7 @@ export const fetchBooks = createAsyncThunk(
 
 export const createBook = createAsyncThunk(
     "createBook",
-    async ({ data, setLoading }) => await post(url.CREATE_BOOK, data, setLoading)
+    async (data) => await post(url.CREATE_BOOK, data)
 )
 export const updateBook = createAsyncThunk(
     "updateBook",

@@ -21,7 +21,6 @@ export const get = async (url) => {
 
 export const post = async (url, data) => {
     const token = localStorage.getItem('user_token');
-
     const response = await axios.post(url, data, {
         headers: {
             'Content-Type': 'multipart/form-data',
